@@ -13,8 +13,7 @@ mainEl.innerHTML = `<h1>DOM Manipulation</h1>`;
 mainEl.classList.add(`flex-ctr`);
 
 //part 2
-//let topMenuEl = document.getElementById(`top-menu`);
-let topMenuEl = document.querySelector(`nav`);
+let topMenuEl = document.getElementById(`top-menu`);
 topMenuEl.style.backgroundColor = `var(--top-menu-bg)`;
 topMenuEl.style.height = `100%`;
 topMenuEl.classList.add(`flex-around`);
